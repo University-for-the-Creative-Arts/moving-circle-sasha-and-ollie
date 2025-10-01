@@ -43,8 +43,8 @@ If raylib is on the D: drive, use this
 ```
 echo > Setup required Environment
 echo -------------------------------------
-SET RAYLIB_PATH=C:\raylib\raylib
-SET COMPILER_PATH=C:\raylib\w64devkit\bin
+SET RAYLIB_PATH=D:\raylib\raylib
+SET COMPILER_PATH=D:\raylib\w64devkit\bin
 ENV_SET PATH=$(COMPILER_PATH)
 SET CC=g++
 SET CFLAGS=$(RAYLIB_PATH)\src\raylib.rc.data -s -static -O2 -std=c++17 -Wall -I$(RAYLIB_PATH)\src -Iexternal -DPLATFORM_DESKTOP
